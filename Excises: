@@ -1,0 +1,9 @@
+1. a. Memorize 20 amino acids (name, 1-letter code, 3-letter code, molecular formula, structure, properties, etc.)
+   b. Memorize PDB file format (especially the ATOM part, column contents and their meanings, etc.)
+   c. Examine 3-D structure using rasmol, molmol, pymol etc.
+2. a. Choose one PDB file, calculate the distance between Ca(i)--Ca(j) and their distribution. Express it as a histogram. (1<=|i-j|<=10)
+   b. Use say ~100 pdb files to draw histogram for 1<=|i-j|<=10 Consider proper bin size, so that the histograms become smooth.
+3. For every chain in PDB, plot the distribution of N_res (chain length) vs. radius of gyration. (linear-linear & log-log plots)
+4. For every chain in PDB, draw scatter plots of (phi, psi) map for 20 amino acids.
+5. For every PDB, find out the ratio of the disulfide bond forming cysteins among cystein residues. 
+(Information about disulfide bonds can be found by the keyword SSBOND. Calculate the distances between S--S and express it as a histogram.)
